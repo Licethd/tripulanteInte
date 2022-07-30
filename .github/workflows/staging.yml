@@ -31,4 +31,4 @@ jobs:
               StrictHostKeyChecking no
           END
       - name: Build docker
-        run: ssh staging 'cd tripulanteInte && ./deploy.sh'
+        run: ssh staging 'cd tripulanteInte && bash ./deploy.sh'
