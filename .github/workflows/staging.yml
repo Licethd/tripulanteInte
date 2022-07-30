@@ -39,7 +39,7 @@ jobs:
       run: cd tripulante && mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Licethd_tripulanteInte
 
   release:
-    needs: build
+    needs: compilacion
     runs-on: ubuntu-latest
 
     steps:
