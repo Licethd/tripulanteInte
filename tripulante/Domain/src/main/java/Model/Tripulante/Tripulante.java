@@ -1,8 +1,6 @@
 package Model.Tripulante;
 
-// import com.google.gson.Gson;
 import Event.PersonalRegistrado;
-// import Model.Tripulante.ValueObjects.EmailAddress;
 import core.AggregateRoot;
 import java.util.UUID;
 

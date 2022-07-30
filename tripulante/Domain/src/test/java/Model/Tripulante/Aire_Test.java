@@ -5,7 +5,6 @@ import static org.mockito.ArgumentMatchers.anyDouble;
 import Model.Tripulante.ValueObjects.HorasVuelo;
 import Model.Tripulante.ValueObjects.NroMillas;
 import fourteam.http.Exception.HttpException;
-import java.util.UUID;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -6,7 +6,6 @@ import static org.mockito.ArgumentMatchers.anyString;
 import Model.Tripulante.Cargo;
 import Model.Tripulante.Tripulante;
 import fourteam.http.Exception.HttpException;
-import java.util.UUID;
 import org.junit.Before;
 import org.junit.Test;
 

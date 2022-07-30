@@ -4,7 +4,6 @@ import static org.mockito.ArgumentMatchers.anyDouble;
 import static org.mockito.ArgumentMatchers.anyString;
 
 import fourteam.http.Exception.HttpException;
-import java.util.UUID;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
