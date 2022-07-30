@@ -61,7 +61,7 @@ jobs:
               IdentityFile ~/.ssh/staging.key
               StrictHostKeyChecking no
           END
-      - name: Docker
+      - name: Docker build
         run: ssh staging 'cd tripulanteInte && ./deploy.sh'
     #   - name: Stop the server
     #     run: ssh staging 'sudo systemctl stop pedidos.service'
