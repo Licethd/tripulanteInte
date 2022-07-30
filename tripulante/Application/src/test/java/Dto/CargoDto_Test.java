@@ -9,7 +9,6 @@ public class CargoDto_Test {
 	@Test
 	public void CargoCheckPropertiesValid() {
 		String descripcion = "Asistente";
-		CargoDto cargo2 = new CargoDto();
 		CargoDto cargo = new CargoDto(null);
 
 		Assert.assertNull(cargo.Descripcion);

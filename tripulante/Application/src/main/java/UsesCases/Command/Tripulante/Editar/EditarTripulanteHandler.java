@@ -42,7 +42,6 @@ public class EditarTripulanteHandler
 		tripulante.setEmailAddress(request.tripulanteDto.EmailAddress);
 		tripulante.setCargo(request.tripulanteDto.Cargo);
 		_tripulanteRepository.Update(tripulante);
-		// _unitOfWork.commit();
 		return tripulante;
 	}
 }
